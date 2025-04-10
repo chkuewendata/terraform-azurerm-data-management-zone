@@ -5,12 +5,14 @@ on:
       - main
     paths:
       - "**.tf"
+      - "**.tfvars"
 
   pull_request:
     branches:
       - main
     paths:
       - "**.tf"
+      - "**.tfvars"
 
 jobs:
   terraform_deploy:
