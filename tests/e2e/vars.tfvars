@@ -4,13 +4,13 @@ location             = "westus3"
 location_purview     = "westus3"
 locations_databricks = ["westus3"]
 environment          = "dev"
-prefix               = "mydmgmt"
+prefix               = "ckdmgmt"
 tags                 = {}
 
 # Service variables
 purview_enabled                        = true
 purview_account_root_collection_admins = {}
-databricks_account_id                  = ""
+databricks_account_id                  = "1745545a-55c6-40c6-bccb-24f60b1b24b6"
 
 # HA/DR variables
 zone_redundancy_enabled = false

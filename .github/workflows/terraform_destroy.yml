@@ -10,6 +10,7 @@ jobs:
   terraform_destroy:
     uses: ./.github/workflows/_terraformDestroyTemplate.yml
     name: "Terraform Destroy"
+
     with:
       environment: "dev"
       terraform_version: "1.10.2"

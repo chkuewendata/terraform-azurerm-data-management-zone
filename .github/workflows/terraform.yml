@@ -44,7 +44,7 @@ jobs:
 #      terraform_version: "1.10.2"
 #      node_version: 20
 #      working_directory: "./tests/e2e"
-#      tenant_id: "395878d2e-5f12-487f-b454-aa5fe0db12a2"
+#      tenant_id: "95878d2e-5f12-487f-b454-aa5fe0db12a2"
 #      subscription_id: "64d97042-a8b5-4033-b2d1-4bbda40c8a91"
 #    secrets:
 #      CLIENT_ID: ${{ secrets.CLIENT_ID }}
