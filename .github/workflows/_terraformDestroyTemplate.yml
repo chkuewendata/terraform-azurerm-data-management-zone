@@ -40,7 +40,7 @@ permissions:
 jobs:
   deployment:
     name: Terraform Destroy
-    runs-on: [ubuntu_latest]
+    runs-on: [ubuntu-latest]
     continue-on-error: false
     environment: ${{ inputs.environment }}
     concurrency:
