@@ -43,7 +43,6 @@ jobs:
     runs-on: [ubuntu_latest]
     continue-on-error: false
     environment: ${{ inputs.environment }}
-    if: github.event_name == 'push' || github.event_name == 'release'
     concurrency:
       group: terraform-${{ inputs.environment }}
       cancel-in-progress: false
