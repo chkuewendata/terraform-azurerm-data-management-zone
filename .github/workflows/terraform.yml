@@ -1,5 +1,7 @@
 name: Data Management Zone Deployment
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - main
