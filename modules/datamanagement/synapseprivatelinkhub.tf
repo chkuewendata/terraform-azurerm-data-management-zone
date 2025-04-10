@@ -1,5 +1,5 @@
 module "synapse_private_link_hub" {
-  source = "github.com/PerfectThymeTech/terraform-azurerm-modules//modules/synapseprivetlinkhub?ref=main"
+  source = "github.com/chkuewendata/terraform-azurerm-modules//modules/synapseprivetlinkhub?ref=main"
   providers = {
     azurerm = azurerm
     time    = time

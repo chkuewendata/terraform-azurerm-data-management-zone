@@ -1,5 +1,5 @@
 module "purview_account" {
-  source = "github.com/PerfectThymeTech/terraform-azurerm-modules//modules/purview?ref=main"
+  source = "github.com/chkuewendata/terraform-azurerm-modules//modules/purview?ref=main"
   providers = {
     azurerm = azurerm
     azapi   = azapi

@@ -1,5 +1,5 @@
 module "key_vault_purview" {
-  source = "github.com/PerfectThymeTech/terraform-azurerm-modules//modules/keyvault?ref=main"
+  source = "github.com/chkuewendata/terraform-azurerm-modules//modules/keyvault?ref=main"
   providers = {
     azurerm = azurerm
     time    = time
@@ -18,7 +18,7 @@ module "key_vault_purview" {
 }
 
 module "key_vault_scim" {
-  source = "github.com/PerfectThymeTech/terraform-azurerm-modules//modules/keyvault?ref=main"
+  source = "github.com/chkuewendata/terraform-azurerm-modules//modules/keyvault?ref=main"
   providers = {
     azurerm = azurerm
     time    = time
