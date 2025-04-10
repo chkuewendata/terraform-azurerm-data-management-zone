@@ -2,7 +2,7 @@
 company_name         = "ChKuewenData"
 location             = "westus3"
 location_purview     = "westus3"
-locations_databricks = ["westus3" ]
+locations_databricks = ["westus3"]
 environment          = "dev"
 prefix               = "mydmgmt"
 tags                 = {}
