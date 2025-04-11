@@ -12,7 +12,7 @@ module "container_registry" {
   container_registry_admin_enabled             = false
   container_registry_anonymous_pull_enabled    = false
   container_registry_data_endpoint_enabled     = false
-  container_registry_export_policy_enabled     = false
+  container_registry_export_policy_enabled     = true
   container_registry_quarantine_policy_enabled = false
   container_registry_retention_policy_in_days  = 7
   container_registry_trust_policy_enabled      = false
